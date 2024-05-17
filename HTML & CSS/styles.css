@@ -1,0 +1,91 @@
+.main h1{
+	text-align:center;
+	font-size:35px;
+	
+}
+.profile{
+	display:inline;
+	height:100px;
+	width:100px;
+	margin-left:40%;
+
+}
+.main{
+	display:flex;
+	
+}
+.info img{
+	height:30%;
+	width:100%;
+	border:10px;
+	border-radius: 10px;
+ 
+}
+.info{
+	position:relative;
+}
+.topleft {
+  position: absolute;
+  top: 18px;
+  left: 16px;
+  font-size: 40px;
+  color:white;
+}
+
+.links {
+	background-color:black;
+	display:flex;
+	flex-flow:row wrap;
+	justify-content:centre;
+	
+}
+.links li{
+	list-style-type:none;
+	justify-content:centre;
+	
+}
+.links a{
+	display:inline-block;
+	text-align:centre;
+	text-decoration:none;
+	padding:25px;
+	margin: 0 25px;
+	color:white;
+	justify-content:centre;
+}
+.links a:hover{
+	background-color:blue;
+}
+.blogs{
+	display:flex;
+	
+	padding:25px;
+	background-color:#e0ffff;
+}
+.ourmenu
+{
+	margin:0 25px;
+	padding:25px;
+	background-color:pink;
+}
+.booktable
+{
+	margin:0 25px;
+	padding:25px;
+	background-color:pink;
+}
+.hours
+{
+	margin:0 25px;
+	padding:25px;
+	background-color:pink;
+}
+body
+{
+	background-color:white;
+}
+.foot p{
+	text-align:right;
+	border-top:solid;
+	
+}
